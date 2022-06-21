@@ -1,0 +1,242 @@
+@media (min-width: 1281px) {
+  /* //CSS */
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (max-width: 1280px) {
+  .header-text h4 {
+    font-size: 31px !important;
+  }
+  .btn-custom {
+    font-size: 17px;
+  }
+  p {
+    font-size: 14px !important;
+  }
+  .good .container .col-md-9 h2 {
+    font-size: 40px !important;
+  }
+  .good .container .col-md-9 p {
+    font-size: 14px !important;
+    padding-right: 50px !important;
+  }
+
+  .good .container .col-md-9 .btn-custom {
+    font-size: 17px !important;
+  }
+
+  .special .col-md-8 {
+    width: 82% !important;
+  }
+
+  .food-card .card h4 {
+    font-size: 22px !important;
+  }
+  .food-card .card p {
+    padding: 0px 10px !important;
+    line-height: 1.4 !important;
+  }
+
+  .food-card .card h6 {
+    font-size: 17px !important;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (max-width: 1024px) {
+  p {
+    font-size: 13px !important;
+  }
+
+  .btn-custom {
+    font-size: 14px !important;
+  }
+
+  .header-text h4 {
+    font-size: 23px !important;
+  }
+  .header-text h5 {
+    font-size: 24px !important;
+  }
+  .header-text span {
+    width: 140px !important;
+  }
+  .good .container {
+    top: 23% !important;
+  }
+  .good .container .col-md-9 h2 {
+    font-size: 30px !important;
+  }
+
+  .good .container .col-md-9 p {
+    font-size: 13px !important;
+    padding-right: 50px !important;
+  }
+
+  .good .container .col-md-9 .btn-custom {
+    font-size: 13px !important;
+  }
+  .food-card .card h4 {
+    font-size: 18px !important;
+    padding: 17px 0px 6px !important;
+  }
+  .food-card .card h6 {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+  }
+  .menu-card .col-md-4 h4 {
+    font-size: 17px !important;
+  }
+  .menu-card .price ul li a {
+    font-size: 16px !important;
+  }
+  .menu-card .price ul li h6 {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+  }
+
+  .counter {
+    background-color: #f49d1d !important;
+    height: 65vh !important;
+  }
+  .client {
+    margin-top: -15% !important;
+  }
+  .client .card {
+    border-radius: 123px;
+    padding: 25px 40px 5px !important;
+  }
+
+  .latest-news .btn-custom {
+    padding: 6px 23px !important;
+  }
+
+  .latest-news h3 {
+    font-size: 20px !important;
+    margin: 5px 0px !important;
+  }
+  .latest-news .col-md-6 p {
+    font-size: 13px !important;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (max-width: 767px) {
+  .header-text {
+    text-align: center !important;
+  }
+  .header-text span {
+    margin: 20px auto;
+  }
+  .good .container {
+    top: 13% !important;
+  }
+  .good .container .col-md-9 h2 {
+    font-size: 19px !important;
+  }
+  .good .container .col-md-9 p {
+    font-size: 10px !important;
+    color: #000 !important;
+    margin-right: 110px;
+  }
+  .good .container .col-md-9 .btn-custom {
+    font-size: 10px !important;
+    margin: 0 !important;
+  }
+
+  .history {
+    padding: 48px 0px !important;
+    text-align: center;
+  }
+  .history .col-md-6 p {
+    padding-right: 0px !important;
+  }
+
+  .history img {
+    margin-top: 30px !important;
+  }
+  .food-card {
+    margin-top: -45% !important;
+    
+  }
+  .food-card .col-md-12{
+       margin: 20px 57px;
+  }
+  .col {
+    flex:none;
+    margin-bottom: 20px;
+}
+.food-card .card{
+  width: 75% !important;
+}
+
+.menu-card {
+  margin: 20px 0px !important;
+  text-align: center;
+}
+.menu-card .row{
+  padding: 0% !important;
+  margin: 0% !important;
+}
+.menu-card .col-md-1 img {
+  width: 50% !important;
+  margin-bottom: 20px;
+}
+.menu-card .col-md-4 p {
+  padding: 0px 50px;
+}
+.menu-card .col-md-1 ul{
+  flex: none !important;
+  justify-content: center !important;
+}
+.menu-card .col-md-1 ul li {
+  display: inline-block;
+}
+.price {
+  margin-bottom: 20px !important;
+}
+
+.reserve {
+  text-align: center;
+  padding: 20px 0px !important;
+}
+.reserve .back-left img {
+  display: none !important;
+}
+.reserve .back-right img {
+  display: none !important;
+}
+.great-team {
+  text-align: center;
+  padding: 20px 0px !important;
+}
+.counter {
+  height: 100% !important;
+}
+.client{
+  margin-top: 0 !important;
+}
+.latest-news .img_1 {
+  margin-bottom: 25px !important;
+}
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (max-width: 480px) {
+}
